@@ -289,7 +289,7 @@ def main():
     # save the last model
     save_file = os.path.join(
         opt.save_folder, 'last.pth')
-    save_model(model, optimizer, opt, opt.epochs, save_file)
+    save_model(model, optimizer, opt, opt.epochs, 'last.pth')
 
 
 if __name__ == '__main__':
